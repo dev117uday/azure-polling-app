@@ -1,0 +1,22 @@
+logs
+results
+tmp
+
+# Coverage reports
+coverage
+
+# Dependency directory
+node_modules
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+package-lock.json
+
+# build artifacts
+dist
