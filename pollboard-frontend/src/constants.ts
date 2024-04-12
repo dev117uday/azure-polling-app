@@ -1,6 +1,6 @@
 export default {
-  SOCKET_URL: 'http://localhost:3000',
-  API_URL: 'http://localhost:7000',
+  SOCKET_URL: `${process.env.SURL}`,
+  API_URL: `${process.env.BURL}`,
   SOCKET_EVENTS: {
     UPDATE_ROOM: 'update_room',
     POLL_UPDATE: 'poll_update',
